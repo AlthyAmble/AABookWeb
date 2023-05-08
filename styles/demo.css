@@ -47,7 +47,7 @@ body{
 }
 .intro-list img{
 	height: 420px;
-	width: 1600px;
+	width: 1500px;
 }
 .list img{
 	float: left;
@@ -286,7 +286,7 @@ footer{
 /*Product list page style*/
 .container {
   margin: 0 auto;
-  max-width: 1900px;
+  max-width: 2010px;
 }
 .fiction h2{
 	color: #474747;
@@ -296,10 +296,11 @@ footer{
 	margin-top: 10px;
 }
 .wrapper {
+
 	display: inline-block;
 	height: 325px;
-	width: 750px;
-	margin-left: 60px;
+	width: 740px;
+	margin-left: 75px;
 	margin-top:70px;
 	border-radius: 7px 7px 7px 7px;
 	box-shadow: 0 0 20px #aaa;
@@ -413,6 +414,38 @@ span {
 
 #buy:hover {
   background-color: black;
+}
+
+.hidden1 {
+  display: none;
+}
+.hidden2 {
+  display: none;
+}
+.expand1 label{
+	text-align: right;
+	margin: 10px 170px 0 1380px;
+	position: relative;
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+}
+.more-romance:not(:checked) > label,
+.more-romance:checked ~  .hidden1{
+  display: block;
+}
+input[type=checkbox].more-romance, .more-adventure{
+  opacity: 0;
+}
+.expand2 label{
+	text-align: right;
+	margin: 10px 170px 0 1380px;
+	position: relative;
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+}
+.more-adventure:not(:checked) + .expand1 label,
+.more-adventure:checked ~  .hidden2{
+  display: block;
 }
 
 /*Registration/Signup style */
