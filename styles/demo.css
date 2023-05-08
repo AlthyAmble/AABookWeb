@@ -416,38 +416,6 @@ span {
   background-color: black;
 }
 
-.hidden1 {
-  display: none;
-}
-.hidden2 {
-  display: none;
-}
-.expand1 label{
-	text-align: right;
-	margin: 10px 170px 0 1380px;
-	position: relative;
-	font-size: 30px;
-	font-family: 'Playfair Display', serif;
-}
-.more-romance:not(:checked) > label,
-.more-romance:checked ~  .hidden1{
-  display: block;
-}
-input[type=checkbox].more-romance, .more-adventure{
-  opacity: 0;
-}
-.expand2 label{
-	text-align: right;
-	margin: 10px 170px 0 1380px;
-	position: relative;
-	font-size: 30px;
-	font-family: 'Playfair Display', serif;
-}
-.more-adventure:not(:checked) + .expand1 label,
-.more-adventure:checked ~  .hidden2{
-  display: block;
-}
-
 /*Registration/Signup style */
 .signup-box{
 	display: inline-block;
