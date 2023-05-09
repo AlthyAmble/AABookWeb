@@ -285,9 +285,8 @@ footer{
 
 /*Product list page style*/
 .container {
-	margin: 0 auto;
-	max-width: 2010px;
-	float: left;
+  margin: 0 auto;
+  max-width: 2010px;
 }
 .fiction h2{
 	color: #474747;
@@ -297,6 +296,7 @@ footer{
 	margin-top: 10px;
 }
 .wrapper {
+
 	display: inline-block;
 	height: 325px;
 	width: 740px;
