@@ -296,7 +296,7 @@ footer{
 	margin-top: 10px;
 }
 .wrapper {
-
+	float: left;
 	display: inline-block;
 	height: 325px;
 	width: 740px;
