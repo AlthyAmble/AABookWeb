@@ -56,7 +56,7 @@ body{
 
 .best-sellers {
   margin: 0 auto;
-  max-width: 2010px;
+  max-width: 1920px;
   text-align: center;
 }
 .best-sellers h1 {
@@ -286,7 +286,7 @@ footer{
 /*Product list page style*/
 .container {
   margin: 0 auto;
-  max-width: 2010px;
+  max-width: 1920px;
 }
 .fiction h2{
 	color: #474747;
