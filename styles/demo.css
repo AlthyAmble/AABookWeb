@@ -314,12 +314,12 @@ footer{
 .product-info {
 	float: left;
 	height: 325px;
-	width: 450px;
+	width: 447px;
 }
 
 .product-text {
 	height: 300px;
-	width: 435px;
+	width: 440px;
 	margin-right: 25px;
 }
 
@@ -347,7 +347,7 @@ footer{
 }
 
 .product-text p {
-	width: 430px;
+	width: 445px;
 	height: 170px;
 	margin: 0 0 0 38px;
 	font-family: 'Playfair Display', serif;
