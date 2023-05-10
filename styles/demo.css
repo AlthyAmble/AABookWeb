@@ -40,18 +40,14 @@ body{
 }
 .intro img{
 	height: 500px;
-	width: 1200px;
+	width: 1370px;
 }
 .intro-list{
 	text-align: center;
 }
 .intro-list img{
-	height: 420px;
-	width: 1500px;
-}
-.list img{
-	float: left;
-	height: 100px;
+	height: 370px;
+	width: 1370px;
 }
 
 .best-sellers {
@@ -107,7 +103,7 @@ body{
 /*GENRES information*/
 .genres {
   margin: 0 auto;
-  max-width: 1470px;
+  max-width: 1920px;
 
 }
 .genre-box {
@@ -115,7 +111,6 @@ body{
 	display: inline-block;
 	height: 330px;
 	width: 655px;
-	margin-right: 15px;
 	margin-left: 60px;
 	margin-top:70px;
 	border-radius: 7px 7px 7px 7px;
@@ -286,7 +281,7 @@ footer{
 /*Product list page style*/
 .container {
   margin: 0 auto;
-  max-width: 1920px;
+  max-width: 1960px;
 }
 .fiction h2{
 	color: #474747;
@@ -296,10 +291,9 @@ footer{
 	margin-top: 10px;
 }
 .wrapper {
-
 	display: inline-block;
 	height: 325px;
-	width: 740px;
+	width: 710px;
 	margin-left: 75px;
 	margin-top:70px;
 	border-radius: 7px 7px 7px 7px;
@@ -320,14 +314,14 @@ footer{
 }
 
 .product-info {
-  float: right;
+  float: left;
   height: 325px;
-  width: 480px;
+  width: 430px;
 }
 
 .product-text {
   height: 300px;
-  width: 393;
+  width: 397;
   margin-right: 25px;
 }
 
@@ -367,7 +361,7 @@ footer{
 
 .product-price-btn {
   height: 100px;
-  width: 327px;
+  width: 317px;
   position: relative;
   top: -70px;
   margin-left: 170px;
