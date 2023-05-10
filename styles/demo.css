@@ -27,8 +27,8 @@
 }
 
 .topnav a:hover {
-  background-color: black;
-  color: #ddd;
+	background-color: black;
+	color: #ddd;
 }
 
 body{
@@ -51,9 +51,9 @@ body{
 }
 
 .best-sellers {
-  margin: 0 auto;
-  max-width: 1920px;
-  text-align: center;
+	margin: 0 auto;
+	max-width: 1920px;
+	text-align: center;
 }
 .best-sellers h1 {
 	color: gray;
@@ -72,20 +72,20 @@ body{
 
 .book {
 	background-color: #ffffff;
-  display: inline-block;
-  width: 250px;
-  height: 410px;
-  box-shadow: 0 0 20px #aaa;
-  margin: 25px;
-  vertical-align: top;
-  transition: height 1s;
+	display: inline-block;
+	width: 250px;
+	height: 410px;
+	box-shadow: 0 0 20px #aaa;
+	margin: 25px;
+	vertical-align: top;
+	transition: height 1s;
 }
 .cover {
   height: 80%;
-  overflow: hidden;
+	overflow: hidden;
 }
 .cover img {
-  width: 100%;
+	width: 100%;
 }
 .description{
 	margin: 0 auto;
@@ -93,17 +93,17 @@ body{
 	padding-bottom: 15px;
 }
 .book p {
-  margin-top: 12px;
-  font-size: 20px;
+	margin-top: 12px;
+	font-size: 20px;
 }
 .book .author {
-  font-size: 15px;
+	font-size: 15px;
 }
 
 /*GENRES information*/
 .genres {
-  margin: 0 auto;
-  max-width: 1920px;
+	margin: 0 auto;
+	max-width: 1920px;
 
 }
 .genre-box {
@@ -239,9 +239,9 @@ body{
 
 /*Footer style*/
 footer{
-  background: #D2B48C;
-  padding: 5px 0;
-  margin-top: 20px;
+	background: #D2B48C;
+	padding: 5px 0;
+	margin-top: 20px;
 }
 
 .footer_container{
@@ -264,24 +264,24 @@ footer{
 }
 
 .social_media{
-  margin: 20px 150px;
+	margin: 20px 150px;
 }
 
 .social_media a{
-  color: #000;
-  font-size: 24px;
-  text-decoration: none;
-  transition: .6s;
+	color: #000;
+	font-size: 24px;
+	text-decoration: none;
+	transition: .6s;
 }
 
 .social_media a:hover{
-  color: gold;
+	color: gold;
 }
 
 /*Product list page style*/
 .container {
-  margin: 0 auto;
-  max-width: 1960px;
+	margin: 0 auto;
+	max-width: 1960px;
 }
 .fiction h2{
 	color: #474747;
@@ -301,118 +301,119 @@ footer{
 	background-color: #ffffff;
 }
 .product-img {
-  float: left;
+	float: left;
 }
 .product-img img {
 	width: 100%;
-  border-radius: 7px 0 0 7px;
-  display: block;
-  margin-left: 20px;
-  margin-right: auto;
+	border-radius: 7px 0 0 7px;
+	display: block;
+	margin-left: 20px;
+	margin-right: auto;
 }
 
 .product-info {
-  float: left;
-  height: 325px;
-  width: 430px;
+	float: left;
+	height: 325px;
+	width: 430px;
 }
 
 .product-text {
-  height: 300px;
-  width: 397;
-  margin-right: 25px;
+	height: 300px;
+	width: 397;
+	margin-right: 25px;
 }
 
 .product-text h1 {
-  margin: 0 0 0 38px;
-  padding-top: 29px;
-  font-size: 33px;
-  color: #474747;
-  text-align: left;
+	margin: 0 0 0 38px;
+	padding-top: 29px;
+	font-size: 33px;
+	color: #474747;
+	text-align: left;
 }
 
 .product-text h1,
 .product-price-btn p {
-  font-family: 'Bentham', serif;
+	font-family: 'Bentham', serif;
 }
 
 .product-text h2 {
-  margin: 0 0 18px 38px;
-  font-size: 13px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #d2d2d2;
-  letter-spacing: 0.2em;
+	margin: 0 0 18px 38px;
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #d2d2d2;
+	letter-spacing: 0.2em;
 }
 
 .product-text p {
-  height: 170px;
-  margin: 0 0 0 38px;
-  font-family: 'Playfair Display', serif;
-  color: #8d8d8d;
-  line-height: 1.7em;
-  font-size: 16px;
-  font-weight: lighter;
-  overflow: hidden;
+	width: 430px;
+	height: 170px;
+	margin: 0 0 0 38px;
+	font-family: 'Playfair Display', serif;
+	color: #8d8d8d;
+	line-height: 1.7em;
+	font-size: 16px;
+	font-weight: lighter;
+	overflow: hidden;
 }
 
 .product-price-btn {
-  height: 100px;
-  width: 317px;
-  position: relative;
-  top: -70px;
-  margin-left: 170px;
+	height: 100px;
+	width: 317px;
+	position: relative;
+	top: -70px;
+	margin-left: 170px;
 }
 
 .product-price-btn p {
-  display: inline-block;
-  position: absolute;
-  top: -13px;
-  height: 50px;
-  font-family: 'Trocchi', serif;
-  margin: 0 0 0 47px;
-  font-size: 28px;
-  font-weight: lighter;
-  color: #474747;
+	display: inline-block;
+	position: absolute;
+	top: -13px;
+	height: 50px;
+	font-family: 'Trocchi', serif;
+	margin: 0 0 0 47px;
+	font-size: 28px;
+	font-weight: lighter;
+	color: #474747;
 }
 
 span {
-  display: inline-block;
-  height: 50px;
-  font-family: 'Suranna', serif;
-  font-size: 28px;
+	display: inline-block;
+	height: 50px;
+	font-family: 'Suranna', serif;
+	font-size: 28px;
 }
 
 #buy {
-  float: right;
-  display: inline-block;
-  height: 50px;
-  width: 176px;
-  margin: 0 35px 0 16px;
-  box-sizing: border-box;
-  border: transparent;
-  border-radius: 60px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: #ffffff;
-  background-color: #D2B48C;
-  cursor: pointer;
-  outline: none;
+	float: right;
+	display: inline-block;
+	height: 50px;
+	width: 176px;
+	margin: 0 35px 0 16px;
+	box-sizing: border-box;
+	border: transparent;
+	border-radius: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+	background-color: #D2B48C;
+	cursor: pointer;
+	outline: none;
 }
 
 #buy:hover {
-  background-color: black;
+	background-color: black;
 }
 
 .hidden1 {
-  display: none;
+	display: none;
 }
 .hidden2 {
-  display: none;
+	display: none;
 }
 .expand1 label{
 	text-align: right;
@@ -423,10 +424,10 @@ span {
 }
 .more-romance:not(:checked) > label,
 .more-romance:checked ~  .hidden1{
-  display: block;
+	display: block;
 }
 input[type=checkbox].more-romance, .more-adventure{
-  opacity: 0;
+	opacity: 0;
 }
 .expand2 label{
 	text-align: right;
@@ -437,7 +438,7 @@ input[type=checkbox].more-romance, .more-adventure{
 }
 .more-adventure:not(:checked) + .expand1 label,
 .more-adventure:checked ~  .hidden2{
-  display: block;
+	display: block;
 }
 
 /*Registration/Signup style */
