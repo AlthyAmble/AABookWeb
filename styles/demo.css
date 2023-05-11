@@ -143,18 +143,6 @@ body{
 	background-image: url("../src/mystery-banner.jpg");
 	background-repeat: no-repeat;
 }
-.science-fiction{
-	height: 330px;
-	width: 655px;
-	background-image: url("../src/science-fiction-banner.jpg");
-	background-repeat: no-repeat;
-}
-.young-adult{
-	height: 330px;
-	width: 655px;
-	background-image: url("../src/young-adult-banner.jpg");
-	background-repeat: no-repeat;
-}
 .transparent{
 	height: 330px;
 	width: 655px;
@@ -319,7 +307,7 @@ footer{
 
 .product-text {
 	height: 300px;
-	width: 440px;
+	width: 435px;
 	margin-right: 25px;
 }
 
