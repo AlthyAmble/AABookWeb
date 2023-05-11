@@ -4,6 +4,7 @@
 	width: 130px;
 }
 #header{
+	max-width: 1920px;
 	text-align: center;
 	padding-top: 10px;
 	background-image: url("../src/banner.png");
@@ -27,8 +28,8 @@
 }
 
 .topnav a:hover {
-	background-color: black;
-	color: #ddd;
+  background-color: black;
+  color: #ddd;
 }
 
 body{
@@ -40,7 +41,7 @@ body{
 }
 .intro img{
 	height: 500px;
-	width: 1370px;
+	width: 90%;
 }
 .intro-list{
 	text-align: center;
@@ -51,9 +52,9 @@ body{
 }
 
 .best-sellers {
-	margin: 0 auto;
-	max-width: 1920px;
-	text-align: center;
+  margin: 0 auto;
+  max-width: 1920px;
+  text-align: center;
 }
 .best-sellers h1 {
 	color: gray;
@@ -72,20 +73,20 @@ body{
 
 .book {
 	background-color: #ffffff;
-	display: inline-block;
-	width: 250px;
-	height: 410px;
-	box-shadow: 0 0 20px #aaa;
-	margin: 25px;
-	vertical-align: top;
-	transition: height 1s;
+  display: inline-block;
+  width: 250px;
+  height: 410px;
+  box-shadow: 0 0 20px #aaa;
+  margin: 25px;
+  vertical-align: top;
+  transition: height 1s;
 }
 .cover {
   height: 80%;
-	overflow: hidden;
+  overflow: hidden;
 }
 .cover img {
-	width: 100%;
+  width: 100%;
 }
 .description{
 	margin: 0 auto;
@@ -93,17 +94,17 @@ body{
 	padding-bottom: 15px;
 }
 .book p {
-	margin-top: 12px;
-	font-size: 20px;
+  margin-top: 12px;
+  font-size: 20px;
 }
 .book .author {
-	font-size: 15px;
+  font-size: 15px;
 }
 
 /*GENRES information*/
 .genres {
-	margin: 0 auto;
-	max-width: 1920px;
+  margin: 0 auto;
+  max-width: 1920px;
 
 }
 .genre-box {
@@ -143,6 +144,18 @@ body{
 	background-image: url("../src/mystery-banner.jpg");
 	background-repeat: no-repeat;
 }
+.science-fiction{
+	height: 330px;
+	width: 655px;
+	background-image: url("../src/science-fiction-banner.jpg");
+	background-repeat: no-repeat;
+}
+.young-adult{
+	height: 330px;
+	width: 655px;
+	background-image: url("../src/young-adult-banner.jpg");
+	background-repeat: no-repeat;
+}
 .transparent{
 	height: 330px;
 	width: 655px;
@@ -180,22 +193,23 @@ body{
 /*About section style*/
 
 .background-about{
-	height: 300px;
-	width: 1300px;
+	height: 380px;
+	width: 100%;
 	background-color: #DEB887;
 }
 .transparent-about{
-	height: 300px;
-	width: 1300px;
+	height: 380px;
+	width: 100%;
 	background-color: #ffffff;
 	opacity: 0.5;
 }
 .about-page {
 	display: inline-block;
-	height: 300px;
-	width: 1300px;
-	margin-left: 120px;
+	height: 380px;
+	width: 90%;
+	margin-left: 60px;
 	margin-top:70px;
+	margin-right: 60px;
 	border-radius: 7px 7px 7px 7px;
 	box-shadow: 0 0 20px #aaa;
 	padding-bottom: 5px;
@@ -204,7 +218,7 @@ body{
 	font-weight: bold;
 	color: black;
 	height: 300px;
-	width: 1300px;
+	width: 100%;
 	border-radius: 0 7px 10px 7px;
 }
 .about-text h2 {
@@ -227,9 +241,9 @@ body{
 
 /*Footer style*/
 footer{
-	background: #D2B48C;
-	padding: 5px 0;
-	margin-top: 20px;
+  background: #D2B48C;
+  padding: 5px 0;
+  margin-top: 20px;
 }
 
 .footer_container{
@@ -252,18 +266,18 @@ footer{
 }
 
 .social_media{
-	margin: 20px 150px;
+  margin: 20px 150px;
 }
 
 .social_media a{
-	color: #000;
-	font-size: 24px;
-	text-decoration: none;
-	transition: .6s;
+  color: #000;
+  font-size: 24px;
+  text-decoration: none;
+  transition: .6s;
 }
 
 .social_media a:hover{
-	color: gold;
+  color: gold;
 }
 
 /*Product list page style*/
@@ -335,7 +349,7 @@ footer{
 }
 
 .product-text p {
-	width: 435px;
+	width: 440px;
 	height: 170px;
 	margin: 0 0 0 38px;
 	font-family: 'Playfair Display', serif;
@@ -395,38 +409,6 @@ span {
 
 #buy:hover {
 	background-color: black;
-}
-
-.hidden1 {
-	display: none;
-}
-.hidden2 {
-	display: none;
-}
-.expand1 label{
-	text-align: right;
-	margin: 10px 170px 0 1380px;
-	position: relative;
-	font-size: 30px;
-	font-family: 'Playfair Display', serif;
-}
-.more-romance:not(:checked) > label,
-.more-romance:checked ~  .hidden1{
-	display: block;
-}
-input[type=checkbox].more-romance, .more-adventure{
-	opacity: 0;
-}
-.expand2 label{
-	text-align: right;
-	margin: 10px 170px 0 1380px;
-	position: relative;
-	font-size: 30px;
-	font-family: 'Playfair Display', serif;
-}
-.more-adventure:not(:checked) + .expand1 label,
-.more-adventure:checked ~  .hidden2{
-	display: block;
 }
 
 /*Registration/Signup style */
