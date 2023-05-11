@@ -302,9 +302,10 @@ footer{
 }
 .product-img {
 	float: left;
+	width: 100%;
+	overflow: hidden;
 }
 .product-img img {
-	width: 100%;
 	border-radius: 7px 0 0 7px;
 	display: block;
 	margin-left: 20px;
