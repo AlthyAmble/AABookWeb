@@ -53,7 +53,7 @@ body{
 
 .best-sellers {
   margin: 0 auto;
-  max-width: 1920px;
+  max-width: 1600px;
   text-align: center;
 }
 .best-sellers h1 {
@@ -104,7 +104,7 @@ body{
 /*GENRES information*/
 .genres {
   margin: 0 auto;
-  max-width: 1920px;
+  max-width: 1600px;
 
 }
 .genre-box {
@@ -193,21 +193,21 @@ body{
 /*About section style*/
 
 .background-about{
-	height: 380px;
+	height: 300px;
 	width: 100%;
 	background-color: #DEB887;
 }
 .transparent-about{
-	height: 380px;
+	height: 300px;
 	width: 100%;
 	background-color: #ffffff;
 	opacity: 0.5;
 }
 .about-page {
 	display: inline-block;
-	height: 380px;
+	height: 300px;
 	width: 90%;
-	margin-left: 60px;
+	margin-left: 90px;
 	margin-top:70px;
 	margin-right: 60px;
 	border-radius: 7px 7px 7px 7px;
@@ -283,7 +283,7 @@ footer{
 /*Product list page style*/
 .container {
 	margin: 0 auto;
-	max-width: 1960px;
+	max-width: 1600px;
 }
 .fiction h2{
 	color: #474747;
